@@ -525,7 +525,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 240.3093, y: 54.838}
+  m_SizeDelta: {x: 406.6642, y: 84.8657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &267666337
 MonoBehaviour:
@@ -924,7 +924,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 240.3093, y: 54.838}
+  m_SizeDelta: {x: 406.6642, y: 84.8657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732792358
 MonoBehaviour:
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.05
+  m_fontSize: 60
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1504,7 +1504,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.05
+  m_fontSize: 60
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1592,7 +1592,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 240.3093, y: 54.838}
+  m_SizeDelta: {x: 406.6642, y: 84.8657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1422894606
 MonoBehaviour:
@@ -1723,10 +1723,10 @@ RectTransform:
   m_Father: {fileID: 2047130712}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.21883333, y: 0.10037038}
-  m_AnchorMax: {x: 0.78012496, y: 0.93000007}
-  m_AnchoredPosition: {x: -0.40618896, y: -2.4375}
-  m_SizeDelta: {x: -7.6900635, y: 3.7478027}
+  m_AnchorMin: {x: 0.21883333, y: 0.2645438}
+  m_AnchorMax: {x: 0.77462965, y: 0.77224565}
+  m_AnchoredPosition: {x: 0.59381104, y: -3.953186}
+  m_SizeDelta: {x: -5.6901016, y: -3.585205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1485222463
 MonoBehaviour:
@@ -1961,7 +1961,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.05
+  m_fontSize: 60
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
