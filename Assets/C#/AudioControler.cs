@@ -10,4 +10,8 @@ public class AudioControler : MonoBehaviour
         aud = GetComponent<AudioSource>();
         aud.volume = ConfigManager.instance.volumen;
     }
+    public AudioSource getAudioSourceAC()
+    {
+        return aud;
+    }
 }

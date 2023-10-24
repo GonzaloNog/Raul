@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static LevelManager instance;
+    public AudioControler auCo;
+    public AudioGuia guia;
+    public AudiosList audioList;
+    private void Awake()
     {
-        
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public AudioControler getAudioControler()
     {
-        
+        return auCo;
+    }
+    public AudioGuia getGuia()
+    {
+        return guia;
+    }
+    public AudiosList GetAudiosList()
+    {
+        return audioList;
     }
 }
