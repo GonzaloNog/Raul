@@ -15,9 +15,11 @@ public class AudiosList : MonoBehaviour
     
     public AudioClip getAudioClip(int code)
     {
-        if (idiomas[ConfigManager.instance.getLanguageCode()].Audios[code] != null)
-            return idiomas[ConfigManager.instance.getLanguageCode()].Audios[code];
-        else
-            return errorAudio;
+        if (idiomas[ConfigManager.instance.getLanguageCode()].Audios.Length >= code && code >= 0)
+        {
+            if (idiomas[ConfigManager.instance.getLanguageCode()].Audios[code] != null)
+                return idiomas[ConfigManager.instance.getLanguageCode()].Audios[code];
+        }
+        return errorAudio;
     }
 }
