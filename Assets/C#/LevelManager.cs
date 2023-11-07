@@ -5,9 +5,12 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
+    [Header("Audio")]
     public AudioControler auCo;
     public AudioGuia guia;
     public AudiosList audioList;
+    [Header("Imagenes")]
+    public ImgeList imgList;
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -31,5 +34,9 @@ public class LevelManager : MonoBehaviour
     public AudiosList GetAudiosList()
     {
         return audioList;
+    }
+    public ImgeList GetImgList()
+    {
+        return imgList;
     }
 }

@@ -22,4 +22,8 @@ public class AudiosList : MonoBehaviour
         }
         return errorAudio;
     }
+    public int idiomasCount()
+    {
+        return idiomas[0].Audios.Length;
+    }
 }
